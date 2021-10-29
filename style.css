@@ -34,9 +34,16 @@ ul li {
     height:500px;
     width: 100%;
     margin-bottom:1.5%;
-    background-image: url(./img/img/banner.jpg);
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.5), 
+        rgba(0, 0, 0, 0.5)
+      ), url(./img/img/banner.jpg);
     border-radius: 10px; 
     position: relative; 
+    
+    
+    
+    
 }
 #tinside{
     width: 55%;
@@ -69,8 +76,13 @@ p span{
     box-sizing: border-box;  
     width: 24%;
 }
-.f{
-    
+
+.ua{
+    background-image: url(./img/img/img-1.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 230px;
+    width:100%;
     
 }
 .centrale{
@@ -79,21 +91,29 @@ p span{
     width: 50%;
     box-sizing: border-box;
 }
-.ii{
-    
-}
-.s{
 
-    
+.ub{ 
+    background-image: url(./img/img/banner-2.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 230px;
+    width:100%;
+
 }
+
 .lato2{
     float: left;
     width: 24%;
     box-sizing: border-box;
 }
-.t{
-
+.uc{
+    background-image: url(./img/img/img-3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 230px;
+    width:100%;
 }
+
 .lato1, .lato2, .centrale{
     margin-bottom: 20px;
 }
@@ -108,11 +128,6 @@ p span{
     width: 100%;
     margin-top:0.5%;
     background-color: rgb(122, 6, 199);    
-}
-.last::after{
-    content: "";
-    clear: both;
-    display: table;
 }
 
 
