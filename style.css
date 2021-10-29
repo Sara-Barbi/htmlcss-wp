@@ -1,3 +1,6 @@
+*{
+    box-sizing: border-box;
+}
 body{
     margin: 20px 100px 30px 100px;
 }
@@ -28,12 +31,20 @@ ul li {
 }
 
 .contenitore2{
-    height:400px;
+    height:500px;
     width: 100%;
     margin-bottom:1.5%;
-    background-image: url();
-    
+    background-image: url(./img/img/banner.jpg);
+    border-radius: 10px; 
+    position: relative; 
 }
+#tinside{
+    width: 60%;
+    position:absolute;
+    left: 35px;
+    bottom: 40px;
+}
+
 .contenitore2::after{
     content: "";
     clear: both;
