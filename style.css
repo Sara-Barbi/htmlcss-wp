@@ -9,7 +9,17 @@ div img{
     height: 50px;
     padding-right: 10px ;
     border-right: 1px solid;
-    border-color: rgb(168, 166, 166);
+    border-color: rgb(231, 226, 226);
+}
+ul{ 
+    padding-inline-start: 0;
+    margin: 25px 0;
+}
+ul li {
+    text-decoration: none;
+    display:inline;
+    padding-right: 10px;
+
 }
 .contenitore1::after{
     content: "";
@@ -21,7 +31,8 @@ div img{
     height:400px;
     width: 100%;
     margin-bottom:1.5%;
-    background-color: rgb(221, 200, 107);    
+    background-image: url();
+    
 }
 .contenitore2::after{
     content: "";
