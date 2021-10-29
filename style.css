@@ -35,15 +35,11 @@ ul li {
     width: 100%;
     margin-bottom:1.5%;
     background: linear-gradient(
-        rgba(0, 0, 0, 0.5), 
-        rgba(0, 0, 0, 0.5)
+        rgba(0, 0, 0, 0.4), 
+        rgba(0, 0, 0, 0.4)
       ), url(./img/img/banner.jpg);
     border-radius: 10px; 
-    position: relative; 
-    
-    
-    
-    
+    position: relative;    
 }
 #tinside{
     width: 55%;
@@ -78,12 +74,15 @@ p span{
 }
 
 .ua{
-    background-image: url(./img/img/img-1.jpg);
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.4), 
+        rgba(0, 0, 0, 0.4)
+      ), url(./img/img/img-1.jpg);
     background-size: cover;
     background-position: center;
     height: 230px;
     width:100%;
-    
+    border-radius: 10px;
 }
 .centrale{
     float: left; 
@@ -93,12 +92,15 @@ p span{
 }
 
 .ub{ 
-    background-image: url(./img/img/banner-2.jpg);
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.4), 
+        rgba(0, 0, 0, 0.4)
+      ),url(./img/img/banner-2.jpg);
     background-size: cover;
     background-position: center;
     height: 230px;
     width:100%;
-
+    border-radius: 10px;
 }
 
 .lato2{
@@ -107,11 +109,15 @@ p span{
     box-sizing: border-box;
 }
 .uc{
-    background-image: url(./img/img/img-3.jpg);
+    background: linear-gradient(
+        rgba(0, 0, 0, 0.4), 
+        rgba(0, 0, 0, 0.4)
+      ), url(./img/img/img-3.jpg);
     background-size: cover;
     background-position: center;
     height: 230px;
     width:100%;
+    border-radius: 10px;
 }
 
 .lato1, .lato2, .centrale{
