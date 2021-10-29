@@ -124,9 +124,9 @@ p span{
     margin-bottom: 20px;
 }
 .contenitore3::after{
-    content: "";
-    clear: both;
-    display: table;
+    content:"";
+    clear:both;
+    display:table;
 }
 .last{
     content:"";
