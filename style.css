@@ -3,6 +3,7 @@
 }
 body{
     margin:0 100px 30px 100px;
+    font-family: Montserrat, Verdana, Geneva, Tahoma, sans-serif;
 }
 .contenitore1{
     margin:1.5% 0;    
@@ -33,8 +34,8 @@ ul li {
     height:500px;
     margin-bottom:1.5%;
     background: linear-gradient(
-        rgba(0, 0, 0, 0.4), 
-        rgba(0, 0, 0, 0.4)
+        rgba(0, 0, 0, 0.3), 
+        rgba(0, 0, 0, 0.3)
       ), url(./img/img/banner.jpg);
     border-radius: 10px; 
     position: relative;    
@@ -47,6 +48,7 @@ ul li {
 }
 #gr{
     font-size: 30px;
+    font-weight: bold;
 }
 p span{
     color: white;
@@ -68,8 +70,8 @@ p span{
 
 .ua{
     background: linear-gradient(
-        rgba(0, 0, 0, 0.4), 
-        rgba(0, 0, 0, 0.4)
+        rgba(0, 0, 0, 0.3), 
+        rgba(0, 0, 0, 0.3)
       ), url(./img/img/img-1.jpg);
     background-size: cover;
     background-position: center;
@@ -85,8 +87,8 @@ p span{
 
 .ub{ 
     background: linear-gradient(
-        rgba(0, 0, 0, 0.4), 
-        rgba(0, 0, 0, 0.4)
+        rgba(0, 0, 0, 0.3), 
+        rgba(0, 0, 0, 0.3)
       ),url(./img/img/banner-2.jpg);
     background-size: cover;
     background-position: center;
@@ -101,8 +103,8 @@ p span{
 }
 .uc{
     background: linear-gradient(
-        rgba(0, 0, 0, 0.4), 
-        rgba(0, 0, 0, 0.4)
+        rgba(0, 0, 0, 0.3), 
+        rgba(0, 0, 0, 0.3)
       ), url(./img/img/img-3.jpg);
     background-size: cover;
     background-position: center;
@@ -112,6 +114,14 @@ p span{
 
 .lato1, .lato2, .centrale{
     margin-bottom: 20px;
+}
+h2{
+    margin-bottom:5px;
+    padding-top: 15px;
+    display: block;
+}
+#sottot{
+    font-size: 12px;
 }
 .contenitore3::after{
     content:"";
@@ -124,5 +134,7 @@ p span{
 
 }
 
-
+.teexx{
+    font-size: 13px;
+}
 
