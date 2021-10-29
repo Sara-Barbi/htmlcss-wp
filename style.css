@@ -8,7 +8,7 @@ body{
     width: 100%;
     margin:1.5% 0;    
 }
-div img{
+.contenitore1 img{
     height: 50px;
     padding-right: 10px ;
     border-right: 1px solid;
@@ -39,12 +39,17 @@ ul li {
     position: relative; 
 }
 #tinside{
-    width: 60%;
+    width: 55%;
     position:absolute;
     left: 35px;
     bottom: 40px;
 }
-
+#gr{
+    font-size: 30px;
+}
+p span{
+    color: white;
+}
 .contenitore2::after{
     content: "";
     clear: both;
@@ -53,45 +58,49 @@ ul li {
 .contenitore3{
     width: 100%;
     height:600px;
-    background-color: rgb(39, 104, 223);
-    clear: both;
+}
+.top{
+    width: 100%;
+    height: 75px;
+    margin-bottom: 20px;
+}
+.lato1{
+    float: left;
+    box-sizing: border-box;  
+    width: 24%;
+}
+.f{
+    
+    
+}
+.centrale{
+    float: left; 
+    margin:0 1%;
+    width: 50%;
+    box-sizing: border-box;
+}
+.ii{
+    
+}
+.s{
+
+    
+}
+.lato2{
+    float: left;
+    width: 24%;
+    box-sizing: border-box;
+}
+.t{
+
+}
+.lato1, .lato2, .centrale{
+    margin-bottom: 20px;
 }
 .contenitore3::after{
     content: "";
     clear: both;
     display: table;
-}
-.top{
-    width: 100%;
-    height: 75px;
-    background-color: rgb(161, 216, 233);
-    margin-bottom: 20px;
-}
-.lato1{
-    float: left;
-    background-color: rgb(161, 216, 233);
-    height: 485px;
-    box-sizing: border-box;  
-    width: 24%;
-}
-
-.centrale{
-    float: left; 
-    background-color: rgb(161, 216, 233);
-    margin:0 1%;
-    width: 50%;
-    height: 485px;
-    box-sizing: border-box;
-}
-.lato2{
-    float: left;
-    height: 485px;
-    background-color: rgb(161, 216, 233);
-    width: 24%;
-    box-sizing: border-box;
-}
-.lato1, .lato2, .centrale{
-    margin-bottom: 20px;
 }
 .last{
     content:"";
@@ -99,6 +108,11 @@ ul li {
     width: 100%;
     margin-top:0.5%;
     background-color: rgb(122, 6, 199);    
+}
+.last::after{
+    content: "";
+    clear: both;
+    display: table;
 }
 
 
