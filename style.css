@@ -1,0 +1,78 @@
+body{
+    margin: 20px 100px 30px 100px;
+}
+.contenitore1{
+    height:100px;
+    width: 100%;
+    margin:1.5% 0;
+    background-color: rgb(221, 94, 233);    
+}
+.contenitore1::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.contenitore2{
+    height:400px;
+    width: 100%;
+    margin-bottom:1.5%;
+    background-color: rgb(221, 200, 107);    
+}
+.contenitore2::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.contenitore3{
+    width: 100%;
+    height:600px;
+    background-color: rgb(39, 104, 223);
+    clear: both;
+}
+.contenitore3::after{
+    content: "";
+    clear: both;
+    display: table;
+}
+.top{
+    width: 100%;
+    height: 75px;
+    background-color: rgb(161, 216, 233);
+    margin-bottom: 20px;
+}
+.lato1{
+    float: left;
+    background-color: rgb(161, 216, 233);
+    height: 485px;
+    box-sizing: border-box;  
+    width: 24%;
+}
+
+.centrale{
+    float: left; 
+    background-color: rgb(161, 216, 233);
+    margin:0 1%;
+    width: 50%;
+    height: 485px;
+    box-sizing: border-box;
+}
+.lato2{
+    float: left;
+    height: 485px;
+    background-color: rgb(161, 216, 233);
+    width: 24%;
+    box-sizing: border-box;
+}
+.lato1, .lato2, .centrale{
+    margin-bottom: 20px;
+}
+.last{
+    content:"";
+    height: 50px;
+    width: 100%;
+    margin-top:0.5%;
+    background-color: rgb(122, 6, 199);    
+}
+
+
